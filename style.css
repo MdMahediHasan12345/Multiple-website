@@ -3,15 +3,13 @@
   padding: 0;
 }
 nav{
-   display: flex;
-   justify-content: space-between;
-   background-color: #1a1244;
-   padding: 10px 200px;
-   border-bottom: 4px solid #401e63;
-}
-nav div {
-  color: white;
-  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #1A1244;
+  padding: 10px 200px;
+  border-bottom: 4px solid #401E63;
+  position: sticky;
+  top: 0;
 }
 nav ul{
   display: flex;
@@ -32,6 +30,10 @@ nav ul li a:hover{
   background-color: black;
   color: red;
   border-radius: 5px;
+}
+nav div{
+  color: white;
+  font-size: 20px;
 }
 
 /* hero area code start here  */
